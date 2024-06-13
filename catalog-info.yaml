@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "elegua"
+  annotations:
+    "humanitec.com/orgId": "platformcon-2024"
+    "humanitec.com/appId": "elegua"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
